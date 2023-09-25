@@ -9,4 +9,7 @@ router.post('/user/signin', signin);
 router.post('/admin/signup', adminSignup);
 router.post('/admin/signin', adminSignin);
 
+// post('/admin/signup', adminSignup);
+// router.post('/admin/signin', adminSignin);
+
 module.exports = router;
