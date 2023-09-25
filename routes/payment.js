@@ -8,7 +8,6 @@ router.get('/getkey', authenticateJwtUser, getKey);
 router.post('/checkout', authenticateJwtUser, checkout);
 router.post('/paymentverification', authenticateJwtUser, paymentVerification, purchaseCourse);
 
-// router.post('/checkout', authenticateJwtUser, checkout);
-// router.post('/paymentverification', authenticateJwtUser, paymentVerification, purchaseCourse);
+
 
 module.exports = router;
