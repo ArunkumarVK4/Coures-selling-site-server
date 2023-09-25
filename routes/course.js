@@ -18,6 +18,7 @@ router.get('/user/purchased', authenticateJwtUser, purchasedCourse);
 router.post('/admin/course/create', authenticateJwtAdmin, createCourse);
 router.put('/admin/courses/:courseId', authenticateJwtAdmin, updateCourse);
 
-
+router.post('/admin/course/create', authenticateJwtAdmin, createCourse);
+router.put('/admin/courses/:courseId', authenticateJwtAdmin, updateCourse);
 
 module.exports = router;
